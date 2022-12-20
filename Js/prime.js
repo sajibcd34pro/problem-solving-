@@ -1,3 +1,4 @@
+// 9 is not a prime number
 num = Number(prompt(`type your number: `));
 count = 0;
 

@@ -6,6 +6,7 @@ if (number === 1 || number === 0) {
     for (i = 2; i < number; i++) {
         if (number % i === 0) {
             isPrime = false
+            break;
         } 
     }
     if (isPrime) {
